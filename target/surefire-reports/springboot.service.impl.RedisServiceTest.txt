@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: springboot.service.impl.RedisServiceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.42 sec <<< FAILURE! - in springboot.service.impl.RedisServiceTest
-test(springboot.service.impl.RedisServiceTest)  Time elapsed: 0.41 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.456 sec <<< FAILURE! - in springboot.service.impl.RedisServiceTest
+test(springboot.service.impl.RedisServiceTest)  Time elapsed: 0.437 sec  <<< ERROR!
 org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/themes/bernie/index.html]")
 	at org.springframework.expression.spel.ast.MethodReference.throwIfNotNullSafe(MethodReference.java:144)
 	at org.springframework.expression.spel.ast.MethodReference.getValueRef(MethodReference.java:73)

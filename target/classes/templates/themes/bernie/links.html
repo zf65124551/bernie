@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="themes/bernie/header::header(title='友情链接',keywords=null)"></div>
+<body>
+<article class="main-content post-page">
+    <div id="post-content" class="post-content">
+        <h3>xx链接</h3>
+        <ul class="flinks">
+            <th:block th:each="link : ${links}">
+                <li>🔒 <a th:href="${link.slug}" target="_blank" th:text="${link.name}"></a></li>
+            </th:block>
+        </ul>
+        <h3>xx须知</h3>
+        <blockquote>
+            <ul>
+                <li><p>首先要长的好看</p></li>
+                <li><p>其次脾气要好</p></li>
+                <li><p>最后是个好人</p></li>
+            </ul>
+        </blockquote>
+        <h3>基本信息</h3>
+
+        <p>我的邮箱:zf65124551@hotmail.com</p>
+        <p>保持联系^_^</p>
+    </div>
+</article>
+</body>
+<div th:replace="themes/bernie/footer::footer"></div>
+</html>

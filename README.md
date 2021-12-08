@@ -274,6 +274,6 @@ uid | int| 10  |false| false |组合主键，标签ID
 
 # 网站地址
 
-  **[www.janti.cn](http://www.janti.cn)**
+  **[www.zqfamily.com](www.zqfamily.com)**
 
-  **[项目代码](https://github.com/JayTange/bernie)**
+  **[项目代码](https://github.com/zf65124551/bernie)**
